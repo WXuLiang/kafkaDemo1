@@ -1,0 +1,16 @@
+server:
+  port: 9090
+kafka:
+  bootstrap-servers: 192.168.0.107:9092
+  topic: test
+  producer:
+    batch_size: 16384
+    linger_ms: 10000
+    key_serializer: org.apache.kafka.common.serialization.StringSerializer
+    value_serializer: org.apache.kafka.common.serialization.StringSerializer
+
+
+
+
+
+
