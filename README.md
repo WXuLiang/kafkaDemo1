@@ -3,8 +3,9 @@
 
 1.kafka服务器的版本 如2.10-0.10.2.1
 
-2.依赖jar包版本 		
-    <dependency>
+2.依赖jar包版本 
+
+    	<dependency>
 	
 	<groupId>org.springframework.cloud</groupId>
 
@@ -12,11 +13,11 @@
 
 	<version>1.2.1.RELEASE</version>
 			
-    </dependency>
+    	</dependency>
     
 此包下依赖包
 
-<dependency>
+	<dependency>
 	
 	<groupId>org.apache.kafka</groupId>
 	
@@ -24,7 +25,7 @@
 	
 	<version>0.10.1.1</version>
 	
-</dependency>
+	</dependency>
 
 主要就是这个版本要与kafka服务器的版本要基本对应，不然就很难成功。
 
